@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercício 3</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      function position(pos) {
+        var coords = {
+          Latitude : pos.coords.latitude,
+          Longitude : pos.coords.longitude,
+          Metros: pos.coords.accuracy
+        }
+        document.write("Latitude: "+ coords.Latitude +"<br/>");
+        document.write("Longitude: "+ coords.Longitude +"<br/>");
+        document.write("Metros: "+ coords.Metros );
+        console.log("Latitude: "+ coords.Latitude);
+        console.log("Longitude: "+ coords.Longitude);
+        console.log("Metros: "+ coords.Metros);
+   }
+      navigator.geolocation.getCurrentPosition(position);
+    </script>
+  </body>
+</html>
