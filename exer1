@@ -160,38 +160,36 @@
     console.log(add(Complex("4+7i"), Complex("5+9i")).real === 9);
     console.log(add(Complex("4+7i"), Complex("5+9i")).imaginary === 16);
 
-    // adicione mais 2 casos de teste para add, multiply, subtract e conjugate
 
-
-    var c14 = add(c12, c5); // /(-1 + 2i) + (5 + 4i) = 4 + 6i
+    var c14 = add(c12, c5); 
     console.log(c14.real === 4);
     console.log(c14.imaginary === 6);
 
-    var c15 = add(c1, c2); // (2 + 3i) + (2+3i) = 4 + 6i
+    var c15 = add(c1, c2); 
     console.log(c15.real === 4);
     console.log(c15.imaginary === 6);
 
-    var c16 = subtract(c3, c1); // 5+0i - 2+3i = 3 - 3i
+    var c16 = subtract(c3, c1);
     console.log(c16.real === 3);
     console.log(c16.imaginary === -3);
 
-    var c17 = subtract(c8, c10); // 2+0i - 3+1i = -1 - 1i
+    var c17 = subtract(c8, c10); 
     console.log(c17.real === -1);
     console.log(c17.imaginary === -1);
 
-    var c18 = multiply(c12, c7); // -1 + 2i * 2+3i = -2 -3i + 4i -6 = -8+1i
+    var c18 = multiply(c12, c7); 
     console.log(c18.real === -8);
     console.log(c18.imaginary === 1);
 
-    var c19 = multiply(c8, c7); //  2 + 0i * 2 + 3i = 4 + 6i + 0 + 0
+    var c19 = multiply(c8, c7); 
     console.log(c19.real === 4);
     console.log(c19.imaginary === 6);
 
-    var c20 = conjugate(c2); //conjugate(2+3i) = 2-3i
+    var c20 = conjugate(c2); 
     console.log(c20.real === 2);
     console.log(c20.imaginary === -3);
 
-    var c21 = conjugate(c4); // conjugate(0+4i) = 0-4i
+    var c21 = conjugate(c4); 
     console.log(c21.real === 0);
     console.log(c21.imaginary === -4);
 
@@ -202,6 +200,7 @@
     console.log(complexToString(Complex(8)) === "8");
     console.log(complexToString(Complex(8, 2)) === "8+2i");
     console.log(complexToString(Complex("8 + 2i")) === "8+2i");
+    
     </script>
   </body>
 </html>
