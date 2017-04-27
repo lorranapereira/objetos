@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercício 2</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var artista = {
+        nome: 'Ariana Grande',
+           albuns :[
+          {
+            nomeAlbum:'Yours Truly',
+            Lancamento: '30 de agosto de 2013',
+            Gravadora: 'Universal Republic Records',
+            Genero : ['Música pop', 'R&B contemporâneo', 'Rhythm and blues', 'Soul']
+          },
+          {
+            nomeAlbum:'Christmas Kisses',
+            Lancamento: '13 de dezembro de 2013',
+            Gravadora: 'Republic Records',
+            Genero : ['Música de Natal', 'Música pop', 'R&B contemporâneo', 'Soul']
+          },
+          {
+            nomeAlbum:'My Everything',
+            Lançamento: '25 de agosto de 2014',
+            Gravadora: 'Republic Records',
+            Genero : ['R&B contemporâneo', 'Dance-pop']
+          },
+          {
+            nomeAlbum:'The Remix',
+            Lançamento: '25 de maio de 2015',
+            Gravadora: 'Republic Records',
+            Genero : ['R&B contemporâneo', 'Dance-pop']
+          },
+          {
+            nomeAlbum:'Christmas & Chill',
+            Lançamento: '18 de dezembro de 2015',
+            Gravadora: 'Republic Records',
+            Genero : ['R&B contemporâneo', 'Música de Natal','Trap']
+          },
+          {
+            nomeAlbum:'Dangerous Woman',
+            Lançamento: '120 de maio de 2016',
+            Gravadora: 'Republic Records',
+            Genero : ['R&B contemporâneo','Dance-pop']
+          }
+        ],
+        musicas : [
+            {
+              NomeCancao:'Dangerous Woman ',
+              Album: 'Dangerous Woman',
+              Lancado: 2016
+            },
+            {
+              NomeCancao:'Everyday',
+              Album: 'Dangerous Woman',
+              Lancado: 2017
+           },
+           {
+              NomeCancao:'Side To Side',
+              Album:'Dangerous Woman',
+              Lancado: 2016
+           },
+           {
+              NomeCancao:'Into You',
+              Album:'Dangerous Woman',
+              Lancado: 2016
+           },
+           {
+              NomeCancao:'Problem ',
+              Album:'My Everything',
+              Lancado:2014
+           },
+           {
+              NomeCancao:'Break Free',
+              Album:'My Everything',
+              Lancado: 2014
+           },
+           {
+              NomeCancao:'Love Me Harder',
+              Album:'My Everything',
+              Lancado: 2014
+           },
+           {
+              NomeCancao:'Bang - Bang',
+              Album:'My Everything',
+              Lancado: 2014
+           },
+           {
+              NomeCancao:'One Last Time ',
+              Album:'My Everything',
+              Lancado: 2015
+           },
+           {
+              NomeCancao:'The Way',
+              Participacao:'Mac Miller',
+              Album:'Yours Truly',
+              Lancado: 2013
+           },
+           {
+              NomeCancao:'Almost Is Never Enough',
+              Participacao:'Nathan Sykes',
+              Album:'Yours Truly',
+              Lancado: 2013
+           },
+           {
+              NomeCancao:'  Right There ',
+              Album:'Yours Truly',
+              Lancado: 2013
+           },
+           {
+              NomeCancao:'  Baby I ',
+              Album:'Yours Truly',
+              Lancado: 2013
+          }
+        ],
+        Data_Nascimento: '26 de junho de 1993',
+        idade:'23 anos',
+        Nascimento:'Boca Raton, Flórida, EUA'
+      }
+
+    </script>
+  </body>
+</html>
